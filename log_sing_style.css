@@ -14,7 +14,7 @@ body div {
 	margin: 0 10%;
 	background-color: #fff;
 	
-	height: 1000px;
+	height: 1300px;
 	width: 80%;
 }
 h1 {
@@ -78,3 +78,33 @@ input[type = button]{
 	transition: 0.3s;
 }
 input[type = button]:hover{background-color: azure;}
+
+/* Style of Table */
+table {
+	margin: auto;
+	margin-bottom: 10%;
+	
+	border-collapse: collapse;
+	
+	font-family: Georgia, sans-serif;
+}
+tr:nth-child(1){
+	background-color: azure;
+}
+td{
+	height: 80px;
+	width: 300px;
+	text-align: left;
+}
+th{
+	height: 40px;
+	text-align: center;
+	width: 300px;
+}
+td:nth-child(1), td:nth-child(2){
+	text-align: center;
+	width: 90px;
+}
+tr[class="tableTR"]:hover{
+	background-color: aliceblue;
+}
