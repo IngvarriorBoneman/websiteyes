@@ -1,0 +1,63 @@
+.jumbotron{
+	background-size: auto;
+	background-position: center;
+	background-image: url(neonbrand-zMp8AEXbPTU-unsplash.jpg)
+}
+div.jumbotron p, h1{
+	color: #fff;
+}
+a.btn{
+	background-color: #000;
+	border: none;
+}
+a.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+img.card-img-top{
+	width: 100%;
+}
+
+/*QUEEN AND OTHER*/
+div.carousel-inner {
+	height: 600px;
+}
+div.text-me{
+	
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+div.text-me p {
+	font-family: Geogria, sans-serif;
+}
+
+/*Header design*/
+#header-my{
+	background-color: #000;
+	height: 100px;
+	
+	text-align: center;
+}
+.headerButton-me{
+	display: inline-block;
+	padding-left: 40px;
+	padding-right: 40px;
+	
+	font-size: 2em;
+	color: #fff;
+	text-decoration-line: none;
+	line-height: 100px;
+	
+	transition: 0.2s;
+	animation-timing-function: step-start;
+}
+.headerButton-me:hover{
+	text-decoration-line: none;
+	color: #000;
+	background-color: #fff;
+	
+	border-bottom: 3px solid red;
+}
+

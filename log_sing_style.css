@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #000;
+	background-image: url(neonbrand-zMp8AEXbPTU-unsplash.jpg);
+	
+
+}
+body div {
+	text-align: center;
+	
+	margin: 0 10%;
+	background-color: #fff;
+	
+	height: 1000px;
+	width: 80%;
+}
+h1 {
+	padding: 60px;
+	
+	font-family: Geogria, sans-serif;
+}
+#buttonToHome {
+	font-family: Geogria, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background-color: #000;
+	padding: 20px 100px;
+	border-radius: 5px;
+	
+	transition: 0.3s;
+}
+#buttonToHome:hover{
+	background-color: #fff;
+	color: #000;
+}
+/* FORM-STYLE */
+form {
+	margin: auto;
+	margin-bottom: 10%;
+}
+form input[type = text]{
+	border: none;
+	background-color: aliceblue;
+	text-align: center;
+	
+	margin-top: 20px;
+	
+	box-sizing: border-box;
+	width: 300px;
+	height: 30px;
+	
+	transition: 0.3s;
+}
+input[type = text]:focus{
+	outline: none;
+	background-color: azure;
+}
+input[type = text]:hover{
+	background-color: azure;
+}
+form input[type = checkbox]{
+	margin-top: 20px;
+}
+input[type = button]{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	border: none;
+	outline: none;
+	width: 300px;
+	height: 30px;
+	
+	background-color: aliceblue;
+	
+	transition: 0.3s;
+}
+input[type = button]:hover{background-color: azure;}
